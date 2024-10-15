@@ -1,5 +1,15 @@
 # Getting Started
 
+### Run
+```bash
+$ ./gradlew bootRun
+```
+
+```bash
+$ ./gradlew build
+$ java -jar build/libs/greeting-0.0.1-SNAPSHOT.jar
+```
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
