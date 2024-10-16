@@ -23,7 +23,7 @@ public class GreetingController {
 		} else {
 				p.setNum(1);
 		}
-		p.setName(name);
+		p.setName(name.toLowerCase());
 		nameStack.push(p);
 		model.addAttribute("nameStack", nameStack);
 		

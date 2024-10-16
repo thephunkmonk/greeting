@@ -5,12 +5,12 @@
     <title>Greeting</title>
 </head>
 <body>
-    <h1>Greeting</h1>
+    <h1>Greeting [[${nameStack.get(0).name}]]</h1>
     
     <ul>
         <li th:each="p : ${nameStack}">
             <span th:text="'Num: ' + ${p.num}"></span> - 
-            <span th:text="'Name: ' + ${#strings.capitalize(p.name)}"></span>
+            <span th:text="'Name: ' + ${p.name}"></span>
         </li>
     </ul>
 
