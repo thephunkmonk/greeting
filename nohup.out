@@ -1,0 +1,23 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-16T17:05:43.873+09:00  INFO 2329421 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : Starting GreetingApplication v0.1.0-SNAPSHOT using Java 17.0.12 with PID 2329421 (/home/diginori/code/java/greeting/build/libs/greeting-0.1.0-SNAPSHOT.jar started by diginori in /home/diginori/code/java/greeting)
+2024-10-16T17:05:43.877+09:00  INFO 2329421 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-16T17:05:44.766+09:00  INFO 2329421 --- [greeting] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-16T17:05:44.784+09:00  INFO 2329421 --- [greeting] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-16T17:05:44.784+09:00  INFO 2329421 --- [greeting] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-16T17:05:44.822+09:00  INFO 2329421 --- [greeting] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-16T17:05:44.823+09:00  INFO 2329421 --- [greeting] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2024-10-16T17:05:44.944+09:00  INFO 2329421 --- [greeting] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-10-16T17:05:45.229+09:00  INFO 2329421 --- [greeting] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-16T17:05:45.241+09:00  INFO 2329421 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : Started GreetingApplication in 1.776 seconds (process running for 2.173)
+2024-10-16T17:05:51.074+09:00  INFO 2329421 --- [greeting] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-16T17:05:51.077+09:00  INFO 2329421 --- [greeting] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-16T17:05:51.080+09:00  INFO 2329421 --- [greeting] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
