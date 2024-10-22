@@ -13,6 +13,12 @@ $ ./gradlew build
 $ java -jar build/libs/greeting-0.0.1-SNAPSHOT.jar
 ```
 
+### Docker
+```bash
+$ docker build -t datamario24/greeting:temurin .
+$ docker run -d --name temurin -p 8080:8080 datamario24/greeting:temurin
+```
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
